@@ -64,6 +64,9 @@ python -m src.train \
   --max-epochs 30
 ```
 
+run predict
+python -m src.predict
+
 Key CLI flags:
 
 - `--alpha` and `--frames` adjust the SlowFast temporal sampling (default `alpha=4`, `frames=32`).
